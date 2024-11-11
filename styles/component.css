@@ -102,6 +102,7 @@ img {
 	img {
 		width: 100px;
 		height: 100px;
+		margin-bottom: 16px;
 	}
 }
 
@@ -116,12 +117,13 @@ img {
 	}
 
 	section {
-		margin-top: 16px;
+		margin-top: 28px;
 	}
 
 	.mock,
 	img {
 		width: 80px;
 		height: 80px;
+		margin-bottom: 14px;
 	}
 }
