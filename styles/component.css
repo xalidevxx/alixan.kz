@@ -27,6 +27,7 @@ section {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
+	background-color: transparent;
 }
 
 main a {
