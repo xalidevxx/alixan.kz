@@ -106,6 +106,10 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
+	header {
+		height: 300px;
+	}
+
 	main {
 		border-radius: 16px;
 		padding: 16px 16px 40px;
