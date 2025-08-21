@@ -1,5 +1,16 @@
 {
-	"banner": {
-		"title": "Текст"
-	}
+  "banner": {
+    "title": "Создаю IT продукты для Казахстана"
+  },
+  "products": {
+    "title": "Мои продукты",
+    "takta": "Объявления Казахстана"
+  },
+  "bio": {
+    "title": "Биография",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien justo. Nulla facilisis tristique imperdiet. Nullam a placerat odio. Sed in ex augue. Aliquam porta consectetur lorem sit amet ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+  },
+  "faq": {
+    "title": "Ответы на вопросы"
+  }
 }
