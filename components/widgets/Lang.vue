@@ -24,7 +24,14 @@ const selectedLang = ref<ILang>(data.find((l) => l.code === locale.value) || dat
     </DropdownMenuTrigger>
     <DropdownMenuContent class="w-56">
       <DropdownMenuGroup>
-        <DropdownMenuItem v-for="lang in data" :key="lang.code" @click="setLocale(lang.code)">
+        <DropdownMenuItem
+          v-for="lang in data"
+          :key="lang.code"
+          @click="
+            setLocale(lang.code);
+            selectedLang = lang;
+          "
+        >
           <span>{{ lang.title }}</span>
           <Check v-if="selectedLang.code === lang.code" class="ml-auto w-4 h-4" />
         </DropdownMenuItem>

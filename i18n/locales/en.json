@@ -13,7 +13,21 @@
     "text": "Alikhan was born on October 27, 2000, in Almaty, Kazakhstan. Since childhood, he has been passionate about chess and football — he became a chess master and played for professional football clubs. In his youth, he faced a choice between sports and studies, and chose the path of programming. He now creates IT products for Kazakhstan, aiming to develop the country's tech sector and realize the ambitious dream of his own large IT company."
   },
   "faq": {
-    "title": "Frequently Asked Questions"
+    "title": "Frequently Asked Questions",
+    "items": {
+      "item1": {
+        "title": "What IT products do you create?",
+        "content": "I develop digital services, mobile apps, and platforms that solve real problems in Kazakhstan."
+      },
+      "item2": {
+        "title": "Who are your products for?",
+        "content": "For users and businesses that need modern and convenient digital solutions."
+      },
+      "item3": {
+        "title": "What makes your products special?",
+        "content": "Each product is created with Kazakhstan’s local needs in mind and focuses on simplicity and efficiency."
+      }
+    }
   },
   "footer": {
     "ipTalon": "IP Talon"
