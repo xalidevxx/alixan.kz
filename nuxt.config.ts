@@ -2,6 +2,12 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineNuxtConfig({
   ssr: false,
+  nitro: {
+    preset: 'static',
+    output: {
+      dir: 'dist',
+    },
+  },
   compatibilityDate: '2025-07-15',
   app: {
     rootId: 'alixan',
