@@ -14,7 +14,7 @@
           alt="Takta.kz"
           width="180"
           height="180"
-          class="md:w-[180px] max-md:w-[100px] object-cover md:rounded-3xl max-md:rounded-xl object-cover"
+          class="md:w-[180px] max-md:w-[100px] md:rounded-3xl max-md:rounded-xl object-cover"
         />
         <p class="section-title mt-3 mb-2">Takta.kz</p>
         <p class="section-text">{{ $t('products.takta') }}</p>
