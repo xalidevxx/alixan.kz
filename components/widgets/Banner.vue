@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <header class="h-[800px] bg-fixed bg-top bg-no-repeat custom-wallpaper">
+  <header class="h-[800px] bg-top bg-no-repeat custom-wallpaper">
     <div class="wrapper h-full py-8 flex flex-col">
       <div class="w-full flex items-center justify-between">
         <Logo class="text-white" />
