@@ -1,6 +1,4 @@
 <script setup lang="ts">
-const defaultValue = 'item-1';
-
 const accordionItems = [
   {
     value: 'item-1',
@@ -23,7 +21,7 @@ const accordionItems = [
 <template>
   <section>
     <p class="page-title">{{ $t('faq.title') }}</p>
-    <Accordion type="single" class="w-full" collapsible :default-value="defaultValue">
+    <Accordion type="single" class="w-full" collapsible>
       <AccordionItem v-for="item in accordionItems" :key="item.value" :value="item.value">
         <AccordionTrigger>{{ item.title }}</AccordionTrigger>
         <AccordionContent>
